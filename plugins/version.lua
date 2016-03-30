@@ -14,12 +14,19 @@
 do
 
 function run(msg, matches)
-  return 'Televiris🚫an advanced bot based on yagop bot'
+  return 'Televirus🚫an advanced bot based on yagop bot 
+Sudo = @Electrovirus
+Admins = @Maderman
+@The_maleficent
+⚠↯π_π↯⚠™
+We are the best 
+Our channel = @Electrovirus_official
+Follow us👑'
 end
 
 return {
   patterns = {
-    "^#version$"
+    "^[!/#]version$"
   }, 
   run = run 
 }
