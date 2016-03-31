@@ -13,7 +13,7 @@
 
 do
     local function run(msg, matches)
-        text = '#⃣ '..lang_text(msg.to.id, 'commandsT')..':\n'
+        text = '[!/#] '..lang_text(msg.to.id, 'commandsT')..':\n'
         local space = '\n'
         if matches[1] == 'commands' and not matches[2] then
             if permissions(msg.from.id, msg.to.id, "mod_commands") then
