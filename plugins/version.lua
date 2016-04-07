@@ -18,10 +18,10 @@ function run(msg, matches)
 Sudo = @Electrovirus
 Admins = @Maderman
 @The_maleficent
-⚠↯π_π↯⚠™
+
 We are the best 
 Our channel = @Electrovirus_official
-Follow us👑'
+Follow us'
 end
 
 return {
