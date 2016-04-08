@@ -1,4 +1,4 @@
-!addplug local add_user_cfg = load_from_file('data/add_user_cfg.lua')
+local add_user_cfg = load_from_file('data/add_user_cfg.lua')
 
 local function template_add_user(base, to_username, from_username, chat_name, chat_id)
    base = base or ''
@@ -102,4 +102,4 @@ return {
       "^!!tgservice (chat_del_user)$",
    },
    run = run
-}   welcome.lua
+}
